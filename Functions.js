@@ -85,6 +85,7 @@ function create(){
     document.getElementById("allListElem").textContent = document.getElementById("allListElem").textContent.split("-")[0] + "-" + i.toString();
 }*/
 
+/*Сверху рабочий код без фильтрации, а снизу с фильтрацией*/
 
 class ListItem{
     constructor(text) {

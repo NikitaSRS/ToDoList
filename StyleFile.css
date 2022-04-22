@@ -1,0 +1,201 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: darkgray;
+    background: url("bkg.jpg");
+}
+
+
+
+.HeadBox{
+
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+
+}
+
+.HeadBoxText {
+    color: white;
+    font-size: xxx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: white underline 5px;
+}
+
+
+.createBox{
+     background-color: black;
+     top: 170px;
+     height: 50px;
+     width: 100%;
+     position: fixed;
+ }
+
+
+.createBoxText{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 28px;
+    transform: translate(-50%, -50%);
+    margin-top: 0;
+    margin-left: -175px;
+    border: white solid 1px;
+}
+
+.TextBoxEnter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width:200px;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: white;
+    color: black;
+
+}
+
+.butEnter{
+    position: absolute;
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    margin-left: 125px;
+    border: none;
+    background-color: greenyellow;
+    color: white;
+ }
+
+.toDoList{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 240px;
+    border: medium double red;
+    width: 500px;
+    height: 700px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    list-style-type: none;
+    font-size: xx-large;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.Filtration{
+    background-color: darkcyan;
+    top: 220px;
+    height: 20px;
+    width: 100%;
+    display: table-cell;
+    position: fixed;
+}
+
+.AllListElem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    margin-left: -210px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    border: none;
+    background-color: lightcyan;
+    color: black;
+}
+
+.DoneListElem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    width:200px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    border: none;
+    background-color: lightcyan;
+    color: black;
+}
+
+.InProgressListElem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    margin-left: 210px;
+
+    border: none;
+    background-color: lightcyan;
+    color: black;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.inProgressElem{
+    height: 50px;
+    width: 483px;
+    background-color: darkgray;
+    opacity: 100%;
+    border: thin dashed black;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+
+}
+
+.finishedElem{
+    height: 50px;
+    width: 483px;
+    background-color: green;
+    opacity: 100%;
+    border: thin dashed black;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.ListCheckBoxes{
+    position: fixed;
+    height: 50px;
+    width: 433px;
+    alignment: left;
+    border: none;
+    opacity: 0;
+}
+
+.ListButtons{
+    position: fixed;
+    font-size: xxx-large;
+    height: 50px;
+    width: 50px;
+    left: 433px;
+    border: none;
+    background-color: darkgray;
+    color: white;
+}
+
+.ListText{
+    position: relative;
+    font-size: xx-large;
+    top: 5px;
+    left: 5px;
+}
+
+
+
+
+
